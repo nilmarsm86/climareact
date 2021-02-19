@@ -1,5 +1,11 @@
+import Header from "./components/Header";
+
 function App() {
-  return <h1>Init proyect</h1>;
+  return (
+    <div className="App">
+      <Header title="Clima react" />
+    </div>
+  );
 }
 
 export default App;
